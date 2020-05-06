@@ -1,0 +1,65 @@
+.resaltado{
+    color: chartreuse !important;/*el important es para que priorice este color antes que otros pero por lo general no se deveria usar*/
+}
+
+.btn-canada{
+    background-color: white;
+    color:rgb(255, 0, 0);
+    border:1px solid  red;
+}
+.btn-canada:hover{
+    background-color:rgb(255, 5, 5) ;
+    color:white;
+
+}
+
+
+
+#header img{
+    width: 80px;
+    
+}
+
+
+
+#main .carousel-inner img{
+    max-height: 70vh;
+    object-fit: cover;/*este sirve para que no se vea estirada la imagen sino que se vea mas proporcionada y le hace un pequeño zoom para que quede mas bonita.Si no entendiste la explicacion sacale el boject-fit ,mira la imagen y despues volve a colocar el object-fit y revisa la imagen de nuevo y vas a notar que es lo que hace*/
+    filter:grayscale(70%);
+}
+#carousel{
+    position: relative;
+}
+#carousel .overlay{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    z-index:1;
+}
+#carousel .overlay .container,
+#carousel .overlay .row{
+    height: 100%;
+}
+
+#place-time {
+    background-color: #343a40;
+    color: white;
+}
+
+#place-time img{
+    max-width: 100%;
+}
+
+
+
+#footer{
+    background: linear-gradient(90deg,#1c3643,#273b47,25%,#1e5372);
+    
+}
+#footer a{
+    color:white;
+}

@@ -1,0 +1,522 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/master.css">
+</head>
+<body data-spy="scroll" data-target="#navbar" data-offset="66">
+    <!--
+    <title>practica boostrap</title>
+  
+ 
+    <div class="container">
+        <div class="row">
+            <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 borde1  ">4</div>
+            <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3  borde1 ">1</div>
+            <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3  borde1 ">2</div>
+            <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3  borde1 ">3</div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-6 col-lg col-xl  borde1 ">1</div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg col-xl borde1 ">1</div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg col-xl borde1  ">1</div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg col-xl  borde1 ">1</div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg col-xl  borde1 ">1</div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg col-xl  borde1 ">1</div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg col-xl borde1  ">1</div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg col-xl borde1  ">1</div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg col-xl borde1 ">1</div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg col-xl borde1 ">1</div>
+        </div>
+    </div>
+    <div class="container">
+
+        <div class="row">
+            <div class="col-12 col-lg-6 offset-lg-6 borde2">col1</div>
+            
+            
+
+        </div>
+
+        <div class="row">
+            <div class="col-8    offset-lg-2 borde2">col1</div>
+        </div>
+        <div class="row">
+            <div class="col-3 offset-9 offset-lg-0 borde2">col1</div>
+        </div>
+
+    </div>
+-->
+
+
+
+<!--HEADER-->
+<nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top"><!--el navbar-dark es el color que toma el fondo y el bg-dark significa background dark osea oscuro-->
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <img src="img/canada.svg" alt="ukitake con sus babies">
+           Latinos hacia Canada
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbar">
+        <ul class="navbar-nav ml-auto"><!--mr-auto se refiere a margin right automatico lo que hace que el menu este hacia la izquierda para que se mueva a la izquierda toca cambiar por ml-auto que significa margin left automatico -->
+            <li class="nav-item">
+            <a class="nav-link" href="#main">Canada</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#provincias">Las provincias</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#place-time">El lugar y la fecha</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#inmigrar">cuentanos tu sueño</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link resaltado" href="#" data-toggle="modal" data-target="#modal-compra">Agenda una cita</a>
+            </li>
+            
+            <!--MENU DESPLEGABLE-->
+            <!--<li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+            </li>-->
+
+            <!--COMO DESABILITAR ELEMENTOS-->
+            <!--<li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>-->
+
+
+        </ul>
+        <!-- este form es una BARRA DE BUSQUEDA lo comento para no borrarlo-->
+        <!--<form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form> 
+        </div>
+    -->
+    </div>
+</nav>
+<!--FIN DEL HEADER-->
+
+<!--MAIN-->
+<section id="main">
+    <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel" data-pause="false">
+        <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="img/paisaje1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="img/paisaje2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="img/paisaje3.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="overlay">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6 offset-md-6 text-center text-md-right"><!--este es para hacer que el container este hacia la derecha usando offset, tambien utilizo un text-center para que este centrado en dispositivos pequeños y text-md-right para que este hacia la derecha el texto desde los dispositivos medianos -->
+                        <h1>Canada</h1>
+                        <p class="d-none  d-md-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                            Maiores ab voluptatem unde temporibus. Vel laudantium eos sed quam. 
+                            Repellat, deleniti incidunt impedit inventore in neque vero ipsum excepturi 
+                            expedita at. </p>
+                        <a href="#" class="btn btn-outline-light">quiero mas informacion</a>
+                        <button type="button" class="btn btn-canada" data-toggle="modal" data-target="#modal-compra">Agenda tu cita</button>
+                        </div>
+                </div>
+            </div>
+        </div>
+        
+        </div>
+        <!--<a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+        </a>-->
+    </div>
+</section>
+<!--FIN DEL MAIN-->
+
+
+<!--PROVINCIAS CANADIENSES-->
+<section id="provincias" class="mt-4 mb-4"><!--mt-4 es margin top 4 -->
+    <div class="container">
+        <div class="row">
+            <div class="col text-center text-uppercase">
+                <small>Conoce las </small>
+                <h2>provincias canadienses</h2>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class=" col-12 col-md-6  col-lg-4 mb-4">
+                <div class="card">
+                    <img src="img/bc.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">British Columbia</h5>
+                     <!-- <div class="badges">
+                          <span class="badge badge-warning">Geografia</span>
+                      </div>
+                      -->
+                      <p class="card-text">Columbia Británica o Colombia Británica (en inglés: British Columbia; en francés: Colombie-Britannique), abreviada comúnmente BC, es una de las diez provincias que, junto con los tres territorios, conforman las trece entidades federales de Canadá. Su capital es Victoria y su ciudad más poblada, Vancouver.</p>
+                      <a href="#" class="btn btn-primary">ingresar </a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-12 col-mb-6 col-lg-4 mb-4 ">
+                <div class="card">
+                    <img src="img/bc.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Alberta</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quos ab eos optio sed exercitationem veniam adipisci, quaerat suscipit omnis incidunt est accusamus, velit atque commodi cupiditate doloribus dolor minima!</p>
+                      <a href="#" class="btn btn-primary">ingresar </a>
+                    </div>
+                </div>
+                 
+            </div>
+
+
+            <div class="col-12 col-mb-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img src="img/bc.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Saskatchewan</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quos ab eos optio sed exercitationem veniam adipisci, quaerat suscipit omnis incidunt est accusamus, velit atque commodi cupiditate doloribus dolor minima!</p>
+                      <a href="#" class="btn btn-primary">ingresar </a>
+                    </div>
+                </div>    
+            </div>
+
+
+            <div class="col-12 col-mb-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img src="img/bc.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Manitoba</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quos ab eos optio sed exercitationem veniam adipisci, quaerat suscipit omnis incidunt est accusamus, velit atque commodi cupiditate doloribus dolor minima!</p>
+                      <a href="#" class="btn btn-primary">ingresar </a>
+                    </div>
+                </div>    
+            </div>
+
+
+            <div class="col-12 col-mb-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img src="img/bc.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Ontario</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quos ab eos optio sed exercitationem veniam adipisci, quaerat suscipit omnis incidunt est accusamus, velit atque commodi cupiditate doloribus dolor minima!</p>
+                      <a href="#" class="btn btn-primary">ingresar </a>
+                    </div>
+                </div>    
+            </div>
+
+
+
+            <div class="col-12 col-mb-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img src="img/bc.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Quebec</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quos ab eos optio sed exercitationem veniam adipisci, quaerat suscipit omnis incidunt est accusamus, velit atque commodi cupiditate doloribus dolor minima!</p>
+                      <a href="#" class="btn btn-primary">ingresar </a>
+                    </div>
+                </div>    
+            </div>
+
+
+            <div class="col-12 col-mb-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img src="img/bc.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">New Brunswick</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quos ab eos optio sed exercitationem veniam adipisci, quaerat suscipit omnis incidunt est accusamus, velit atque commodi cupiditate doloribus dolor minima!</p>
+                      <a href="#" class="btn btn-primary">ingresar </a>
+                    </div>
+                </div>    
+            </div>
+
+            <div class="col-12 col-mb-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img src="img/bc.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Nova Scotia</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quos tenetur tempore rem pariatur ab, quis mollitia esse modi! Laudantium laborum ut veritatis mollitia quod? Voluptates minus eos optio neque.
+                    </div>
+                </div>    
+            </div>
+
+            <div class="col-12 col-mb-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img src="img/bc.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Prince Edward Island</h5>
+                      <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis, aliquid? Cum cupiditate necessitatibus minus quasi, esse, laboriosam asperiores dolorem eaque vel optio facilis ut non, provident quidem maxime aliquid reiciendis! </p>
+                      <a href="#" class="btn btn-primary">ingresar </a>
+                    </div>
+                </div>    
+            </div>
+
+            <div class="col-12 col-mb-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img src="img/bc.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">New Foundland and Labrador</h5>
+                      <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis voluptatem eveniet deserunt quasi eaque corrupti quibusdam, molestiae architecto provident expedita repudiandae, rem laudantium! Iste, nesciunt vel quam eligendi sunt doloremque.</p>
+                      <a href="#" class="btn btn-primary">ingresar </a>
+                    </div>
+                </div>    
+            </div>
+
+
+            
+
+        </div>
+    </div>
+
+
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col text-center text-uppercase">
+                <small>Conoce los </small>
+                <h2>Territorios canadienses</h2>
+            </div>
+        </div>
+        <div class="row">
+
+            
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="img/bc.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Yukón</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quos ab eos optio sed exercitationem veniam adipisci, quaerat suscipit omnis incidunt est accusamus, velit atque commodi cupiditate doloribus dolor minima!</p>
+                      <a href="#" class="btn btn-primary">ingresar </a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="img/bc.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">NorthWest Territories</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quos ab eos optio sed exercitationem veniam adipisci, quaerat suscipit omnis incidunt est accusamus, velit atque commodi cupiditate doloribus dolor minima!</p>
+                      <a href="#" class="btn btn-primary">ingresar </a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="img/bc.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Nunavut</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quos ab eos optio sed exercitationem veniam adipisci, quaerat suscipit omnis incidunt est accusamus, velit atque commodi cupiditate doloribus dolor minima!</p>
+                      <a href="#" class="btn btn-primary">ingresar </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--FINAL DE LAS PROVINCIAS CANADIENSES-->
+
+
+<!--container fluido que utiliza todo el ancho disponible-->
+<section id="place-time">
+    <div class="conteiner-fluid">
+        <div class="row">
+            <div class="col-12 col-lg-6 ">
+                <img src="img/paisaje1.jpg" alt="paisaje canadiense">
+            </div>
+            <div class="col-12 col-lg-6 pt-4 pb-4">
+                <h2>Canada -Septiembre 2028</h2>
+                <p>Canadá (en inglés: Canada, pron. AFI: ˈkænədə; en francés: Canada, pron. AFI: kanaˈda) es un país soberano de América del Norte, cuya forma de gobierno es la monarquía parlamentaria federal. Su territorio está organizado en diez provincias y tres territorios. Su capital es la ciudad de Ottawa y la ciudad más poblada es Toronto. </p>
+                <a class="btn btn-outline-light" href="#">Conoce mi experiencia</a>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--/container fluido que utiliza todo el ancho disponible-->
+
+<!--inmigrar a canada-->
+
+<section id="inmigrar" class="pt-2 pb-4">
+    <div class="container">
+        <div class="row">
+            <div class="col text-uppercase text-center">
+                <small>Como inmigrar a </small>
+                <h2>Canada</h2>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col text-center">
+                Si tu sueño es inmigrar a canada, esta es tu seccion 
+                enviame tu correo y cuentame tu <abbr data-toggle="tooltip" title="como y porque deseas vivir en canada">Historia</abbr> y yo te ayudare a hacerlo realidad
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <form>
+                    <div class="form-row ">
+                      <div class="form-group  col-md-8 offset-md-2">
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                      </div>
+                    </div>  
+
+                    <div class="form-row">
+                        <div class="form-group   col-md-8 offset-md-2">
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"  placeholder="cuentanos tu historia"></textarea>
+                        </div>
+                    </div>
+                      
+                      <div class="form-row">
+                          <div class="col col-md-8 offset-md-2">
+                              <button type="button" class="btn btn-canada btn-block">Enviar</button>
+                          </div>
+                      </div>
+                
+
+                </form>
+            
+            </div>
+
+        </div>
+    
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--/inmigrar a canada-->
+
+
+   <!--FOOTER-->
+<footer id="footer" class="pb-4 pt-4"><!--el pb-4 significa padding bootom osea espacio de abajo y el pt-4 es padding top osea el espacio de arriba puede varias del 1 al 4 donde 1 es menos padding y 4 es mucho padding-->
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-12 col-lg">
+                <a href="#">Preguntas Frecuentes</a>
+            </div>
+            <div class="col-12 col-lg">
+                <a href="#">Contactanos</a>
+            </div>
+            <div class="col-12 col-lg">
+                <a href="#">Prensa</a>
+            </div>
+            <div class="col-12 col-lg">
+                <a href="#">Conferencias</a>
+            </div>
+            <div class="col-12 col-lg">
+                <a href="#">Terminos y Condiciones</a>
+            </div>
+            <div class="col-12 col-lg">
+                <a href="#">Privacidad</a>
+            </div>
+
+        </div>
+    </div>
+</footer>
+
+
+<!--MODAL-->
+
+<div class="modal fade" id="modal-compra" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">Agenda tu cita </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <form action="">
+                <div class="form-row">
+                    <div class="form-group col">
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                            <span class="input-group-text" id="basic-addon1">@</span>
+                            </div>
+                            <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                        </div>
+
+                    </div>
+
+                </div>
+             </form>
+
+             <!--Alerta-->
+             <div class="alert alert-warning" role="alert">
+                recibiras un correo de confirmacion avisandote las fechas y horas disponibles
+              </div>
+             <!--/fin de la alerta -->
+
+          </div>
+        
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">cancelar</button>
+          <button type="button" class="btn btn-primary">Agendar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!--/MODAL-->
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
